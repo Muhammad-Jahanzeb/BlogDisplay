@@ -1,0 +1,39 @@
+.navBar{
+  display: flex;
+  padding: 1%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.right{
+  display: flex;
+  width:40%;
+  align-items: center;
+  padding-left: 4%;
+}
+
+.icons{
+  display: flex;
+  margin-right: 5%;
+  width: 7%;
+  justify-content: space-between;
+  padding: 1%;
+  font-size: 120%;
+}
+
+.searchBar{
+  margin-left: 30%;
+  border: solid 2px rgb(212, 212, 212);
+  border-radius: 20px;
+  padding-left: 8%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-right: 8%;
+  transition: width 0.3s ease;/* Smooth transition for width change */
+  width: 200px; 
+}
+
+.searchBar:focus {
+	width: 363px; /* Bar width+1px */
+  margin-left: 30%;
+}
