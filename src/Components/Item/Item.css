@@ -1,9 +1,24 @@
 .cardContainer{
-    display: flex;
-    border: solid 2px rgb(197, 196, 196);
+    border: solid 1px rgb(197, 196, 196);
     border-radius: 10px;
-    width: 20%;
-    height: auto;
-    background-color: red;
-    font-weight: 800;
+    width: 15%;
+    height: 250px;
+    cursor:pointer;
+    transition: transform 0.4s ease;
+    padding: 1%;
+}
+
+.cardContainer:hover{
+    transform: scale(1.1);
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.textContainer{
+    display: flex;
+    overflow: hidden;
+    text-align: center;
 }

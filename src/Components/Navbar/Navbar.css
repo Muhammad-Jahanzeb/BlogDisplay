@@ -1,15 +1,14 @@
 .navBar{
   display: flex;
-  padding: 1%;
   width: 100%;
   justify-content: space-between;
+  margin-bottom:2%;
 }
 
 .right{
   display: flex;
   width:40%;
   align-items: center;
-  padding-left: 4%;
 }
 
 .icons{

@@ -4,12 +4,15 @@ import './Item.css'
 const Item = () => {
   return (
     <div className="cardContainer">
+      <div className="cardBody">
         <div className="imageContainer">
-          <p>Image</p>
-        </div>
-        <div className="textContainer">
-            <p>Here</p>
-        </div>
+            <p>Image</p>
+          </div>
+          <div className="textContainer">
+              <p>Here</p>
+          </div>
+      </div>
+        
     </div>
   )
 }
