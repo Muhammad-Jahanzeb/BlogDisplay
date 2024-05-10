@@ -11,7 +11,7 @@ const Item = (props) => {
              <img src={imageUrl} />
         </div>
          <div className="textContainer">
-              <h4>{title}</h4>
+              <h6>{title}</h6>
               <span>{author}</span>
               <span>{publishedAt}</span>
               <p>{content}</p>
