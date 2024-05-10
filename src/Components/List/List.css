@@ -1,0 +1,14 @@
+.listContainer{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.listItem {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the list items appear horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}

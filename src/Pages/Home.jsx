@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import './Home.css'
-import Item from '../Components/Item/Item'
+import List from '../Components/List/List'
+import Loading from '../Components/Loading/Loading'
 
 const Home = () => {
   return (
     <>
       <Navbar/>
-      <Item/>
+      <List/>
     </>
   )
 }
