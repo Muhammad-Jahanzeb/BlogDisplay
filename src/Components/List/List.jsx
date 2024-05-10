@@ -37,7 +37,7 @@ const List = () => {
                 {data.map((data)=>{
                     return(
                     <li key = {data.id}>
-                        <Item author={data.author} title={data.title} imageUrl={data.urlToImage} content={data.content} publishedAt={data.publishedAt} />
+                        <Item author={data.author} title={data.title} imageUrl={data.urlToImage} publishedAt={data.publishedAt} />
                     </li>
                     )
                 })}
